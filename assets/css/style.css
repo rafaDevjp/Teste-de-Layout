@@ -1,0 +1,226 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h1{
+  font-size: 35pt;
+}
+h2{
+  font-size: 27pt;
+}
+
+.container-full{
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 530px; 
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner{ 
+    background: 50% 25% url('../images/everest.jpg'), linear-gradient(230deg, #085af1e8,#0658f0e5) no-repeat ;
+    background-blend-mode: soft-light;
+    background-attachment:fixed ;
+    background-size:cover;
+    color: rgba(255, 255, 255, 0.89) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d-flex{
+display: flex;
+}
+.alinhamento-central {
+	justify-content: center;
+	align-items: center;
+}
+.alinhamento-right {
+    
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+.alinhamento-start {
+	justify-content: flex-start;
+	align-items: center;
+}
+.between-colums {
+	justify-content: space-between;
+    display: flex;
+    flex-direction:column;
+}
+
+.flex-end {
+	align-items: flex-end;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.space-between {
+	align-content: space-between;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0.5px;
+}
+
+.border{
+    border: solid 1px rgb(184, 81, 132);
+}
+
+.col-3{
+    display: flex;
+    min-width: 24%;
+    max-width: 24%;
+    padding: 1px;
+}
+.col-4{
+    display: flex;
+    min-width: 33%;
+    max-width: 33%;
+    padding: 1px;
+}
+.col-6{
+    display: flex;
+    min-width: 49.5%;
+    max-width: 49.5%;
+    padding: 1px;
+}
+.col-8{
+    display: flex;
+    min-width: 66%;
+    max-width: 66%;
+    padding: 1px;
+}
+.col-12{
+    display: flex;
+    min-width: 99.2%;
+    max-width: 99.2%;
+    padding: 1px;
+}
+col{
+   display: flex;
+   align-content: space-between;
+}
+.col-titulo{
+    
+    width: 39%;
+    padding: 1px;
+}
+.p-5{
+    padding: 50px;
+}
+.p-4{
+    padding: 40px;
+}
+.p-3{
+    padding: 30px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-1{
+    padding: 10px;
+}
+.pt-3{
+    padding-top: 30px;
+}
+.pb-3{
+    padding-bottom: 30px;
+}
+.pb-2{
+    padding-bottom: 20px;
+}
+.pb-1{
+    padding-bottom: 10px;
+}
+
+.m-1{
+    margin: 10px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left  {
+    text-align: left;
+}
+.text-left p, small{
+    text-align: left;
+}
+.text-center p, small{
+    text-align: left;
+}
+.text-right p{
+    text-align: left;
+}
+
+.justify-content-center{
+
+    justify-content: center;
+}
+.justfy-content-end{
+     justify-content: flex-end;
+}
+.justfy-content-start{
+    justify-content: flex-start;
+}
+
+button{
+    width: 160px;
+    border: solid aliceblue ;
+    background: aliceblue;
+    color:rgb(7, 4, 48);
+    padding: 5px;
+    font-size: 8pt;
+    font-weight: 700;
+}
+
+
+/***************************/
+
+.img-response{
+    width: 100%;
+    min-width: 95%;
+    max-height: max-content;
+    flex: auto; 
+}
+
+.legenda {
+   position: absolute;
+   color: aliceblue;
+   padding: 40px;
+}
+
+.bg-light{
+    background: rgb(230, 230, 230) ;
+}
+.bg-blue{
+    background: rgb(3, 132, 253) ;
+}
+.bg-blue-dark{
+    background: rgb(10, 81, 233) ;
+}
+
+.text-dark  {
+    color: rgb(48, 46, 46);
+}
+.text-white  {
+    color: rgba(255, 255, 255, 0.884);
+}
+.text-small  {
+   font-size: 9pt;
+}
